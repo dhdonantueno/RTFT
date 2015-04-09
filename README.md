@@ -16,6 +16,8 @@ Raspberry Pi library for video output UTFT compatible.
 
   This library is based in the Frame Buffer technology wich allows
   a very good performance and ease of work.
+  
+  Repository https://github.com/dhdonantueno/RTFT.git
 
   This library is free software; you can redistribute it and/or
   modify it under the terms of the CC BY-NC-SA 3.0 license.
