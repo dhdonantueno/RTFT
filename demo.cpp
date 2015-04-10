@@ -107,10 +107,10 @@ while (true)
   myGLCD->print("Tan", 5, 39);
   for (int i=1; i<798; i++)
   {
-    myGLCD->drawPixel(i,(int)(239+(tan(((i*0.9)*3.14)/180)))%200);
+    myGLCD->drawPixel(i,239+(int)(tan(((i*1.13)*3.14)/180))%200);
   }
 
-  sleep(2);
+  sleep(10);
 
   myGLCD->setColor(0,0,0);
   myGLCD->fillRect(1,15,798,464);
